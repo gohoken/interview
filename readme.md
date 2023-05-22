@@ -1,6 +1,6 @@
 # Interview Coding Problem - Repository Setup and Instructions
 
-Welcome to our interview coding problem, in this exercise, we have provided you with a repository that contains two separate applications: a web application built with Next.js and a python backend application. 
+Welcome to our interview coding problem. In this exercise, we have provided you with a repository that contains two separate applications: a web application built with Next.js and a python backend application. 
 
 Your task is to fork this repository, create a branch, and implement a solution to the problem outlined in [acceptance criteria](./acceptance-criteria.md)
 
@@ -68,7 +68,7 @@ Now that you have your forked repository, it's time to create a branch and start
 
 We understand that your time is valuable, and we expect that implementing the solution and providing a sense of your thinking should not take longer than a few hours.
 
-While the primary focus is on delivering a solution, we encourage you to feel free to make any additional changes or improvements that you would consider necessary to make the application production-ready. Please highlight those changes as either comments, commits or separate a document.
+While the primary focus is on delivering a solution, we encourage you to feel free to make any additional changes or improvements that you would consider necessary to make the application production-ready. Please highlight those changes as either comments, commits or a separate document.
 
 Remember, the primary goal is to showcase your problem-solving abilities and provide a glimpse into your thinking process.
 
