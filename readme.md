@@ -2,7 +2,7 @@
 
 Welcome to our interview coding problem. In this exercise, we have provided you with a repository that contains two separate applications: a web application built with Next.js and a python backend application. 
 
-Your task is to fork this repository, create a branch, and implement a solution to the problem outlined in [acceptance criteria](./acceptance-criteria.md)
+Your task is to fork this repository, create a branch, and implement a solution to the problem outlined in [acceptance criteria](./acceptance-criteria.md).
 
 ## Repository Structure
 
@@ -18,16 +18,16 @@ The repository is structured as follows:
 └── acceptance-criteria.md  <- The assignment
 ```
 
-- The `web/` directory contains the Next.js web application code.
-- The `backend/` directory contains a python api
+- The `web/` directory contains the Next.js web application code
+- The `backend/` directory contains a Python API
 
 ## Forking the Repository
 
 To get started, you need to fork this repository to your own GitHub account. Follow these steps:
 
 1. Visit the original repository on GitHub: https://github.com/gohoken/interview
-2. Click on the "Fork" button in the top-right corner of the page.
-3. Choose your GitHub account to fork the repository into.
+2. Click on the "Fork" button in the top-right corner of the page
+3. Choose your GitHub account to fork the repository into
 
 Once you have successfully forked the repository, you will have a copy of it in your own GitHub account.
 
