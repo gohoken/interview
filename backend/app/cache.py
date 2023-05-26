@@ -36,4 +36,18 @@ def process_image_cache(response: requests.Response):
     for image in data["photos"]:
         image_urls.append(image["url"])
 
+    # duplicate randomly 30% of images to simulate a larger cache
+    # DO NOT REMOVE THIS IS PART OF THE FRONTEND TEST
+    image_urls.extend(image_urls[: len(image_urls) // 3])
+
+    # add a few more images that will fail to load
+    # DO NOT REMOVE THIS IS PART OF THE FRONTEND TEST
+    image_urls.extend(
+        [
+            "https://api.slingacademy.com/public/sample-photos/asd.jpeg",
+            "https://api.slingacademy.com/public/sample-photos/dsa.jpeg",
+            "https://api.slingacademy.com/public/sample-photos/sad.jpeg",
+        ]
+    )
+
     return image_urls
